@@ -4,7 +4,7 @@ import Card from "./Card.jsx";
 
 const Features = () => {
 	return (
-		<div className="flex flex-col justify-center items-center gap-10 py-20 px-20 max-w-7xl mx-auto">
+		<div className="flex flex-col justify-center items-center gap-10 md:py-20 pb-20 pt-0 px-20 max-w-7xl mx-auto">
 			<div className="text-[40px] font-semibold text-center md:text-left">
 				Features & Benefits
 			</div>

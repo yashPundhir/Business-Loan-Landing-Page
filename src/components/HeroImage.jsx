@@ -3,7 +3,7 @@ import heroimage from "../assets/img55.jpg";
 
 const HeroImage = () => {
 	return (
-		<div className="rounded-lg  p-0 w-full flex justify-center items-center ">
+		<div className="rounded-lg  md:p-0 pt-14 w-full flex justify-center items-center ">
 			<div className="p-4 bg-gray-200 rounded-lg">
 				<img
 					className="aspect-[3/2] w-fit rounded-lg px-10 py-10  bg-white object-contain lg:aspect-auto lg:h-[550px] lg:object-center"

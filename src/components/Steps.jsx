@@ -7,7 +7,7 @@ import funds from "../assets/img12.jpg";
 
 const Steps = () => {
 	return (
-		<div className="py-20 flex flex-col justify-center items-center gap-10 max-w-7xl px-20 mx-auto">
+		<div className="md:py-20 pt-0 pb-20 flex flex-col justify-center items-center gap-10 max-w-7xl px-20 mx-auto">
 			<div className="text-[40px] font-semibold text-center md:text-left">
 				Get A Loan In <span className="text-blue-600">3 Easy Steps</span>
 			</div>

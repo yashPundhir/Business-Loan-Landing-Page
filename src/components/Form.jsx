@@ -26,7 +26,7 @@ const Form = () => {
 
 				<div className="form-control w-full ">
 					<label className="label pt-0">
-						<span className="label-text text-black text-base">
+						<span className="label-text text-black dark:text-white text-base">
 							Is your business GST registered?
 						</span>
 					</label>
@@ -43,7 +43,7 @@ const Form = () => {
 				</div>
 				<div className="form-control w-full ">
 					<label className="label pt-0">
-						<span className="label-text text-black text-base">
+						<span className="label-text text-black dark:text-white text-base">
 							Your average monthly sales is? (In Lakhs)
 						</span>
 					</label>
@@ -77,7 +77,7 @@ const Form = () => {
 				</button>
 				<div className=" flex items-center justify-center ">
 					<img src={lock} alt="lock" className="h-4 w-4" />
-					<span className="ml-2 text-sm text-gray-600">
+					<span className="ml-2 text-sm text-gray-600 dark:text-gray-300">
 						Your data is completely secure with us.
 					</span>
 				</div>
